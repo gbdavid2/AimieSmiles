@@ -1,5 +1,5 @@
 # AimieSmiles
-Aimie Smiles is a small macOS application that helps you make batch searches of compounds using their registration number (CAS) --> (convert CAS to SMILES). The App will retrieve the SMILES string for each entry.
+Aimie Smiles is a small macOS application that helps you make batch searches of compounds using their registration number [(CAS)](https://en.wikipedia.org/wiki/CAS_Registry_Number) --> (convert CAS to [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)). The App will retrieve the SMILES string for each entry.
 
 ## How to use
 1. Create a list of records that you would like to use for your search in an excel file using the following headers:
@@ -7,7 +7,7 @@ Name: The compound name
 CAS: the registration number of the compound
 SMILES: Leave this column empty but make sure you create the header.
 
-2. When your file is ready export it to CSV
+2. When your file is ready export it to CSV. If using Microsoft Excel to export your CSV, make sure that you use the simple CSV export (none of the options that have additonal encodings like UTF, and for MS-DOS etc..). Otherwise you can Create your data in [Apple Numbers](https://www.apple.com/numbers/) and export it to CSV that way.
 
 3. Open AimieSmiles (You can either download the source and run from Xcode, or use the latest build found in /Builds/).
 
