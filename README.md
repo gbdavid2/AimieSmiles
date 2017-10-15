@@ -22,3 +22,9 @@ SMILES: Leave this column empty but make sure you create the header.
 8. When the search is finished, you can export the results using the 'Save results' button.
 
 9. You can now use your exported file to create structures or for any of your other applications using your tool of choice.
+
+## Developer notes
+
+This App was created using XCode 9 and Swift 4. It uses Storyboards for managing the views. The data is bound to the view via an NSArrayController that uses the ChemData class as model (Object Controller). It then binds its properties to the NSTableView columns of the ViewController. The App uses GDC and URLSession to connect to the web service, and displays a NSProgressIndicator bar to indicate progress which will be useful when the app needs to deal with hundreds of records, and the search will be slow.
+
+You can remove all signing and run the App locally. You're also welcome to contribute and commit any improvements you would like to add.
