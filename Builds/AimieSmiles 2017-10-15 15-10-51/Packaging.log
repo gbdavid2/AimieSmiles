@@ -1,0 +1,519 @@
+2017-10-15 14:10:44 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f963e077760; archive(resolved)='<IDEArchive: 0x7f963dd372a0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team(resolved)='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	Chain (10, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f963e077760; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f963d9e7220; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f963e3407d0; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f9654306cf0; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f963cfecd10; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f963dd22f60; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f963dde2670; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f963cbf7900; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='<IDEProvisioningBasicTeam 0x7f9656dd31b0: teamID: 64LV943Y52, teamName: David Garces>'>
+	<IDEDistributionContext: 0x7f965a3635f0; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7f96636a0c90>', team='(null)'>
+	<IDEDistributionContext: 0x7f965a07aec0; archive = '<IDEArchive: 0x7f963dd372a0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f963e077760>
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionCopyItemStep
+2017-10-15 14:10:44 +0000  Running /usr/bin/ditto '-V' '/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app'
+2017-10-15 14:10:44 +0000  >>> Copying /Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app 
+2017-10-15 14:10:44 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2017-10-15 14:10:44 +0000  9922 bytes for ./Contents/_CodeSignature/CodeResources
+2017-10-15 14:10:44 +0000  copying file ./Contents/MacOS/AimieSmiles ... 
+2017-10-15 14:10:44 +0000  139888 bytes for ./Contents/MacOS/AimieSmiles
+2017-10-15 14:10:44 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2017-10-15 14:10:44 +0000  36251 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2017-10-15 14:10:44 +0000  42094 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2017-10-15 14:10:44 +0000  4569 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-10-15 14:10:44 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2017-10-15 14:10:44 +0000  copying file ./Contents/Resources/archived-expanded-entitlements.xcent ... 
+2017-10-15 14:10:44 +0000  476 bytes for ./Contents/Resources/archived-expanded-entitlements.xcent
+copying file ./Contents/Resources/Assets.car ... 
+2017-10-15 14:10:44 +0000  74120 bytes for ./Contents/Resources/Assets.car
+2017-10-15 14:10:44 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2017-10-15 14:10:44 +0000  138640 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+2017-10-15 14:10:44 +0000  40336 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+2017-10-15 14:10:44 +0000  copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2017-10-15 14:10:44 +0000  62000 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2017-10-15 14:10:44 +0000  36144 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2017-10-15 14:10:44 +0000  7174560 bytes for ./Contents/Frameworks/libswiftCore.dylib
+copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+2017-10-15 14:10:44 +0000  165280 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+68512 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+99568 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+308448 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+copying file ./Contents/Frameworks/libswiftos.dylib ... 
+48112 bytes for ./Contents/Frameworks/libswiftos.dylib
+copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+31840 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+75776 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2017-10-15 14:10:44 +0000  52784 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+2017-10-15 14:10:44 +0000  copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+36048 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2017-10-15 14:10:44 +0000  2801328 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+2017-10-15 14:10:44 +0000  
+2017-10-15 14:10:44 +0000  copying file ./Contents/Info.plist ... 
+1518 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+8 bytes for ./Contents/PkgInfo
+2017-10-15 14:10:44 +0000  
+2017-10-15 14:10:44 +0000  2017-10-15 14:10:44 +0000  /usr/bin/ditto exited with 0
+2017-10-15 14:10:44 +0000  
+
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963e029f30 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7f963dd4c3f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963c75c000 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f965993bcd0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963ce20d20 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f96547a22c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963e013f50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f963cda1c30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963cf16f90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f96593fa7f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f96599aaf90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f963cf501d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9654610a60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f965931da90:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963dc96cd0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9659956590:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f965623dc40 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f965b9eab70:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963c7719a0 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7f96565cca30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9656d0f8c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f963df35850:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963dcebe10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f963e332780:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f96594f91d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f963cd555c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f96546d0b30 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7f965bce8510:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f963c9482e0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9656659f30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib'>'>
+2017-10-15 14:10:44 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9669bfa820 'davidgarces.uk.AimieSmiles' '<DVTFilePath:0x7f965a4f75d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app'>'>
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionSymbolsStep
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionAppThinningStep
+2017-10-15 14:10:44 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-10-15 14:10:44 +0000  Processing step: IDEDistributionODRStep
+2017-10-15 14:10:45 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963e029f30 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7f963dd4c3f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963c75c000 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f965993bcd0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963ce20d20 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f96547a22c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963e013f50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f963cda1c30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963cf16f90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f96593fa7f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f96599aaf90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f963cf501d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9654610a60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f965931da90:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963dc96cd0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9659956590:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f965623dc40 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f965b9eab70:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963c7719a0 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7f96565cca30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9656d0f8c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f963df35850:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963dcebe10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f963e332780:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f96594f91d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f963cd555c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f96546d0b30 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7f965bce8510:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2017-10-15 14:10:45 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f963c9482e0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9656659f30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib'>'>
+2017-10-15 14:10:45 +0000  Running /usr/bin/xattr '-cr' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app'
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  2017-10-15 14:10:45 +0000  /usr/bin/xattr exited with 0
+
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  Processing step: IDEDistributionCodesignStep
+2017-10-15 14:10:45 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963e029f30 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7f963dd4c3f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f963e27e4f0>: {
+}
+2017-10-15 14:10:45 +0000  Entitlements for <IDEDistributionItem: 0x7f963e029f30 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7f963dd4c3f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2017-10-15 14:10:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963e029f30 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7f963dd4c3f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementspIcb6n
+2017-10-15 14:10:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementspIcb6n' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib'
+2017-10-15 14:10:45 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2017-10-15 14:10:45 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2017-10-15 14:10:45 +0000  2017-10-15 14:10:45 +0000  
+
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  2017-10-15 14:10:45 +0000  /usr/bin/codesign exited with 0
+
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963c75c000 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f965993bcd0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f965a052010>: {
+}
+2017-10-15 14:10:45 +0000  Entitlements for <IDEDistributionItem: 0x7f963c75c000 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f965993bcd0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2017-10-15 14:10:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963c75c000 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f965993bcd0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsWttNY1
+2017-10-15 14:10:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsWttNY1' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib'
+2017-10-15 14:10:45 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2017-10-15 14:10:45 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  
+
+2017-10-15 14:10:45 +0000  
+2017-10-15 14:10:45 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963ce20d20 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f96547a22c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f965409aae0>: {
+}
+2017-10-15 14:10:45 +0000  Entitlements for <IDEDistributionItem: 0x7f963ce20d20 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f96547a22c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2017-10-15 14:10:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963ce20d20 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f96547a22c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsol5ZOy
+2017-10-15 14:10:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsol5ZOy' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib'
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2017-10-15 14:10:46 +0000  2017-10-15 14:10:46 +0000  
+
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:46 +0000  
+
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963e013f50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f963cda1c30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9653bd3690>: {
+}
+2017-10-15 14:10:46 +0000  Entitlements for <IDEDistributionItem: 0x7f963e013f50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f963cda1c30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2017-10-15 14:10:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963e013f50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f963cda1c30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsH4esWj
+2017-10-15 14:10:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsH4esWj' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  2017-10-15 14:10:46 +0000  
+
+2017-10-15 14:10:46 +0000  2017-10-15 14:10:46 +0000  /usr/bin/codesign exited with 0
+
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963cf16f90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f96593fa7f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f963e29caa0>: {
+}
+2017-10-15 14:10:46 +0000  Entitlements for <IDEDistributionItem: 0x7f963cf16f90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f96593fa7f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2017-10-15 14:10:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963cf16f90 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f96593fa7f0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementswvejxI
+2017-10-15 14:10:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementswvejxI' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  2017-10-15 14:10:46 +0000  /usr/bin/codesign exited with 0
+2017-10-15 14:10:46 +0000  2017-10-15 14:10:46 +0000  
+
+
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f96599aaf90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f963cf501d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9656d5e560>: {
+}
+2017-10-15 14:10:46 +0000  Entitlements for <IDEDistributionItem: 0x7f96599aaf90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f963cf501d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2017-10-15 14:10:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7f96599aaf90 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f963cf501d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsHwdEaJ
+2017-10-15 14:10:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsHwdEaJ' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  2017-10-15 14:10:46 +0000  /usr/bin/codesign exited with 0
+
+2017-10-15 14:10:46 +0000  
+2017-10-15 14:10:46 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9654610a60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f965931da90:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f965bd30dd0>: {
+}
+2017-10-15 14:10:46 +0000  Entitlements for <IDEDistributionItem: 0x7f9654610a60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f965931da90:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2017-10-15 14:10:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9654610a60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f965931da90:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsdfYnFc
+2017-10-15 14:10:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsdfYnFc' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib'
+2017-10-15 14:10:46 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2017-10-15 14:10:47 +0000  2017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  /usr/bin/codesign exited with 0
+2017-10-15 14:10:47 +0000  2017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963dc96cd0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9659956590:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9665a9f920>: {
+}
+2017-10-15 14:10:47 +0000  Entitlements for <IDEDistributionItem: 0x7f963dc96cd0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9659956590:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2017-10-15 14:10:47 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963dc96cd0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9659956590:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsmmR1vV
+2017-10-15 14:10:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsmmR1vV' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib'
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  2017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f965623dc40 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f965b9eab70:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f963e30ed60>: {
+}
+2017-10-15 14:10:47 +0000  Entitlements for <IDEDistributionItem: 0x7f965623dc40 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f965b9eab70:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2017-10-15 14:10:47 +0000  Writing entitlements for <IDEDistributionItem: 0x7f965623dc40 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f965b9eab70:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementspobbWc
+2017-10-15 14:10:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementspobbWc' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib'
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  2017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963c7719a0 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7f96565cca30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9653e864f0>: {
+}
+2017-10-15 14:10:47 +0000  Entitlements for <IDEDistributionItem: 0x7f963c7719a0 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7f96565cca30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2017-10-15 14:10:47 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963c7719a0 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7f96565cca30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsq5WIJw
+2017-10-15 14:10:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsq5WIJw' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib'
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  2017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  2017-10-15 14:10:47 +0000  /usr/bin/codesign exited with 0
+2017-10-15 14:10:47 +0000  
+
+2017-10-15 14:10:47 +0000  
+2017-10-15 14:10:47 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9656d0f8c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f963df35850:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9657dba2b0>: {
+}
+2017-10-15 14:10:47 +0000  Entitlements for <IDEDistributionItem: 0x7f9656d0f8c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f963df35850:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2017-10-15 14:10:47 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9656d0f8c0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f963df35850:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsAF508f
+2017-10-15 14:10:47 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsAF508f' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib'
+2017-10-15 14:10:47 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2017-10-15 14:10:48 +0000  2017-10-15 14:10:48 +0000  
+
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963dcebe10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f963e332780:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f963cf1a8a0>: {
+}
+2017-10-15 14:10:48 +0000  Entitlements for <IDEDistributionItem: 0x7f963dcebe10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f963e332780:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2017-10-15 14:10:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963dcebe10 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f963e332780:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsrihFZi
+2017-10-15 14:10:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsrihFZi' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f96594f91d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f963cd555c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9657b7e1a0>: {
+}
+2017-10-15 14:10:48 +0000  Entitlements for <IDEDistributionItem: 0x7f96594f91d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f963cd555c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2017-10-15 14:10:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f96594f91d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f963cd555c0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsGLQzfW
+2017-10-15 14:10:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsGLQzfW' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  2017-10-15 14:10:48 +0000  /usr/bin/codesign exited with 0
+2017-10-15 14:10:48 +0000  
+
+2017-10-15 14:10:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f96546d0b30 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7f965bce8510:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9656c623b0>: {
+}
+2017-10-15 14:10:48 +0000  Entitlements for <IDEDistributionItem: 0x7f96546d0b30 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7f965bce8510:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2017-10-15 14:10:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f96546d0b30 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7f965bce8510:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsPrSZPN
+2017-10-15 14:10:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsPrSZPN' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib'
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  /usr/bin/codesign exited with 02017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+
+2017-10-15 14:10:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f963c9482e0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9656659f30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9653dd56d0>: {
+}
+2017-10-15 14:10:48 +0000  Entitlements for <IDEDistributionItem: 0x7f963c9482e0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9656659f30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2017-10-15 14:10:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f963c9482e0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9656659f30:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsBch5Pu
+2017-10-15 14:10:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsBch5Pu' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib'
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2017-10-15 14:10:48 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  2017-10-15 14:10:48 +0000  /usr/bin/codesign exited with 0
+
+2017-10-15 14:10:48 +0000  
+2017-10-15 14:10:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9669bfa820 'davidgarces.uk.AimieSmiles' '<DVTFilePath:0x7f965a4f75d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9656cd2050>: {
+}
+2017-10-15 14:10:48 +0000  Entitlements for <IDEDistributionItem: 0x7f9669bfa820 'davidgarces.uk.AimieSmiles' '<DVTFilePath:0x7f965a4f75d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-write" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+}
+2017-10-15 14:10:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9669bfa820 'davidgarces.uk.AimieSmiles' '<DVTFilePath:0x7f965a4f75d0:'/Users/davidgarces/Library/Developer/Xcode/Archives/2017-10-15/AimieSmiles 15-10-2017, 15.10.xcarchive/Products/Applications/AimieSmiles.app'>'> to: /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsGjr8UE
+2017-10-15 14:10:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F2D7D59DBB3E53FBC1B7D900B5DF143013A80AD5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/entitlementsGjr8UE' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "64LV943Y52" ))' '/var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app'
+2017-10-15 14:10:49 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app: replacing existing signature
+2017-10-15 14:10:49 +0000  /var/folders/qq/9hy1wvx94y16pqjp2xyymb0m0000gn/T/XcodeDistPipeline.lxm/Root/Applications/AimieSmiles.app: signed app bundle with Mach-O thin (x86_64) [davidgarces.uk.AimieSmiles]
+2017-10-15 14:10:49 +0000  
+2017-10-15 14:10:49 +0000  2017-10-15 14:10:49 +0000  
+
+2017-10-15 14:10:49 +0000  
+2017-10-15 14:10:49 +0000  
+2017-10-15 14:10:49 +0000  
+2017-10-15 14:10:49 +0000  
+2017-10-15 14:10:49 +0000  
+2017-10-15 14:10:49 +0000  2017-10-15 14:10:49 +0000  /usr/bin/codesign exited with 0
+
+2017-10-15 14:10:49 +0000  2017-10-15 14:10:49 +0000  
+
+2017-10-15 14:10:49 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-10-15 14:10:49 +0000  Processing step: IDEDistributionSkipPackagingStep
+2017-10-15 14:10:49 +0000  Processing step: IDEDistributionCreateManifestStep
+2017-10-15 14:10:49 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
