@@ -13,6 +13,8 @@ class ViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSour
     @objc var  chemData:[ChemData] = []
     
     var selectedCSVFile: URL!
+    let smiles = "smiles"
+    let names = "names"
     
     @IBOutlet weak var progressIndicator: NSProgressIndicator!
     @IBOutlet weak var ProgressLabel: NSTextField!
@@ -57,10 +59,16 @@ class ViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSour
                     } else {
                         
                         DispatchQueue.main.async {
-                            self.callSMILESServer(cas: item.cas.removingWhitespaces(),  completion: { (response) in
+                            self.callSMILESServer(cas: item.cas.removingWhitespaces(), operation: self.smiles,  completion: { (response) in
                                 item.smiles = response
                             })
                         }
+                        
+//                        DispatchQueue.main.async {
+//                            self.callSMILESServer(cas: item.cas.removingWhitespaces(), operation: self.names,  completion: { (response) in
+//                                item.name = response
+//                            })
+//                        }
                     }
                     self.chemDataController.addObject(item)
                 }
@@ -170,9 +178,9 @@ class ViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSour
     
     
 
-    func callSMILESServer(cas: String, completion: @escaping (_ response: String) ->()) {
+    func callSMILESServer(cas: String, operation: String, completion: @escaping (_ response: String) ->()) {
         
-        let url = URL(string: "https://cactus.nci.nih.gov/chemical/structure/\(cas)/smiles")!
+        let url = URL(string: "https://cactus.nci.nih.gov/chemical/structure/\(cas)/\(operation)")!
         
         //let semaphore = DispatchSemaphore(value: 0)
         let group = DispatchGroup()
